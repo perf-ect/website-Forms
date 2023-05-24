@@ -1,0 +1,101 @@
+.Apply{
+    padding: 60px 0;
+    background-color:skyblue
+}
+.Apply h2{
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(10, 129, 10);
+    
+}
+.Apply a{
+    text-decoration: none;
+}
+.Apply a:hover{
+    color: blue;
+}
+.Apply p{
+    font-size: 16px;
+}
+.form{
+    margin-top: 40px;
+}
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"],
+.form input[type="password"],
+.form input[type="date"],
+.form input[type="radio"],
+.form input[type="checkbox"],
+.form textarea,
+.form select
+{
+    width: 100%;
+    margin-bottom: 17px;
+    padding: 12px 20px 10px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    border-radius: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.form ::placeholder{
+    color: azure;
+}
+.form .btn{
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px 10px 13px;
+    box-sizing: border-box;
+    border: 2px solid currentColor;
+    border-radius: 10px;
+    background-color: rgb(60, 10, 80);
+    color: rgb(253, 253, 253);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+     /* -webkit-appearance: none; */
+
+} 
+.form .btn:hover{
+    color: teal;
+    background-color: white;
+}
+.container{
+    width: 84%;
+    margin: 0 auto;
+}
+
+
+@media (min-width: 900px){
+    .container{
+        width: 91%;
+        max-width: 1240px;
+    }
+    .descrip{
+        background: none;
+        padding: 0;
+    
+    }
+    .descrip .container{
+        background-color: azure;
+        padding: 96px 9% 60px;
+    }
+    .descrip h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .descrip p{
+        text-align: center;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: 0;
+    }
+}

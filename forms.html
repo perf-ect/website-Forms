@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms for my Webdesign Class</title>
+    <link rel="stylesheet" href="forms.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+</head>
+<body>
+    <section class="Apply">
+        <div class="container">
+            <div class="descrip">
+                <h2><a href="#">Apply Now</a></h2>
+                <p>
+                    Forms are out for enrollment kindly grab this chance by filling
+                     
+                </p>
+                <p>
+                    the form to enroll now! deadline is <br>
+                    Approaching 
+                </p>    
+                    
+            </div>
+            <form class="form" autocomplete="on ">
+                <p> <input type="text" id="username" name="username" placeholder="FullName" required></p>
+                
+                <p>  <input type="email" id="email" name="email" placeholder="perfect.morkli11@gmail.com" pattern="[A-Z|a-z][0-9]@[A-Z|a-z].[A-Z|a-z]" required></p>
+    
+                <p><input type="password" id="password" name="password" placeholder="********" required></p>
+                
+                <p> <input type="password" id="pass" name="password" placeholder="********"required></p>
+               
+                <p><input type="date" id="DOB" name="DOB" placeholder="DOB"required></p>
+
+                
+                <p>
+                        <input type="radio" id="Gender" name="Male" required>
+                        <label>Male</label>
+                        <input type="radio" id="Gender" name="Female">
+                        <label>Female</label>
+                </p>
+                
+                
+               
+                
+                <p>
+                        <label for="contry">Agree</label><br>
+                        <input type="checkbox" id="terms" name="terms" value="terms">
+                        
+                        <label for="contry">Disagree</label><br>
+                        <input type="checkbox" id="terms" name="terms" value="terms">
+                </p> 
+                
+                <label for="country">Country</label><br>
+                <select name="country" id="Country" required>
+                        <option value="country">Select country</option>
+                        <option value="country">Ghana</option>
+                        <option value="country">Spain</option>
+                        <option value="country">US</option>
+                        <option value="country">Italy</option>
+                        <option value="country">Russia</option>
+                </select>
+                <p>
+                    <textarea name="message" id="message" placeholder="Message" cols="20" rows="8" required></textarea>
+                </p>
+            
+                <p><input type="submit" class="btn"></p>
+                
+            </form>
+        </div>
+
+    </section>
+    
+</body>
+</html>
